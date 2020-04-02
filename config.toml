@@ -1,0 +1,18 @@
+[bot]
+token = "__YOUR_BOT_TOKEN__"
+webaddr = ":7441"
+
+[message]
+welcome = """
+환영합니다.
+
+https://github.com/Regentag/tbot
+"""
+
+bye = """
+알림 메시지를 더 이상 보내지 않습니다.
+다시 알림을 받고 싶으시면 /start 명령을 입력해 주세요."""
+
+ontext = """
+텔레그램 봇입니다.
+알림 메시지를 받지 않으시려면 /bye 명령을 입려하세요."""
